@@ -1,0 +1,29 @@
+{
+  "name": "week-10-task-231pizzy",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:decadevs/week-10-task-231pizzy.git",
+  "type": "module",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "dev": "nodemon --experimental-specifier-resolution=node ./dist/app.js",
+    "build": "tsc",
+    "compile": "tsc -w"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.8.1",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^16.7.1",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.4.4",
+    "typescript": "^5.1.6"
+  }
+}

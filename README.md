@@ -1,11 +1,20 @@
-# GRAPHQL implementation
+This project is a GraphQL-based library API built using TypeScript. It allows users to perform various operations related to a library, such as querying books, adding new books, updating book details, and more. The API also includes authentication and authorization, ensuring that only authenticated users can access certain endpoints, and users can log in and delete their accounts.
 
-### 1. Convert your rest API from week 9 into GraphQL
+The application is containerized using Docker, making it easy to deploy and run in different environments.
 
-### 2. GitHub GraphQL Challenge
+Features
 
-Create a responsive Single Page Application which consumes data from the Github Graphql API (https://api.github.com/graphql)
+Query books in the library
+Add new books to the library
+Update book details
+Delete books
+User authentication and authorization
+User login and account deletion
+Containerized using Docker for easy deployment
+Prerequisites
 
-- Make a replica of your Github Profile page and populate all datas from the api given
-- Complete your implementation using HTML, CSS and Vanilla JavaScript
-- Explore through Github GraphQL api using the [Explorer](https://docs.github.com/en/graphql/overview/explorer)
+Before running the application, ensure you have the following installed:
+
+Node.js (v12 or later)
+npm or yarn
+Docker (optional, for running the container)
